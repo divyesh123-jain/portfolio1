@@ -13,9 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Footer />
-this is home page
-    
+     
     </div>
   )
 }
