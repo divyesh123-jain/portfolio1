@@ -25,8 +25,7 @@ const Hero = () => {
             </p>
             
         </div>
-        <p className='md:text-2xl text-xl p-2  text-gray-400'>Hard Work Is Worthless For Those That Don't Believe In Themselves</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>AboutMe</button>
+        <a href='#about'><button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>AboutMe</button></a>
      </div>
     </div>
        </div>
