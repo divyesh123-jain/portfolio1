@@ -1,7 +1,7 @@
 import React from 'react';
 import bg  from '../Images/bg 1.jpg'
 import Image from 'next/image';
-
+import { useRouter } from 'next/router'
 const Hero = () => {
   return (
     <div className=''>
@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
             
         </div>
-        <a href='#about'><button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>AboutMe</button></a>
+        <button type="button" onClick={() => router.push('/about')} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>AboutMe</button>
      </div>
     </div>
        </div>
