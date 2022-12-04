@@ -85,7 +85,7 @@ const Navbar = () => {
             onClick={handleNav}
             className='md:hidden'
           >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} color="white" />
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-black-900 p-3 cursor-pointer'
               >
                 <AiOutlineClose />
               </div>
@@ -124,7 +124,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className='py-4 flex flex-col'>
-            <ul className='uppercase'>
+            <ul className='uppercase '>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Home

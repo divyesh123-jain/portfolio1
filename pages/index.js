@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
+import Skills from './skills'
+
 
 
 
@@ -20,10 +22,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <div className='pt-14'>
-    \
-      </div>
-     <Projects />
+      <Skills />
+     {/* <Projects /> */}
      
     </div>
   )

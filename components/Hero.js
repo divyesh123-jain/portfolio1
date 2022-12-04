@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
- import dj from '../Images/dj.png';
+ import dj from '../Images/DJ.png';
 const Hero = () => {
   
   return (
@@ -9,29 +9,18 @@ const Hero = () => {
               {/* Image section */}
 
       <div className='mx-7 flex-1 pt-12'>
-          <Image src={dj}  alt="" className='w-100 h-full  object-cover  '/>
+          <Image src={dj}  alt="" className='w-[60vh] h-full  object-cover rounded-md  '/>
        </div>
    
               {/* Text section */}
 
 
-   <div className='flex-1 text-white'>
-      <div>
-        <h1 className='mx-32 md:text-5xl text-2xl md:leading-normal leading-10 font-bold  '>
-            <span className='md:text-6xl text-5xl'>
-              <span className=''>hey, </span>
-               <br />
-               <span className='border-b-8 border-[#C4FA6F]'>This is </span>
-               <br />
-               Divyesh Jain
-               <br />
-              I'm  <span className='border-b-8 border-blue-900'>Frontend Developer</span>
-             </span>
-         </h1>
-            <p className='mx-32 pt-3'>Let's Build Something Together<br />
-              
-            </p>
-             <br />
+   <div className='flex-1 text-white '>
+      <div className='align text-center pb-20 mx-5 font-semi-bold '>
+     <p>Hi there, I am <span className='text-[#D7FF33] font-bold'>Divyesh Jain</span>, A Electronics & Telecommunication student passionate about programming and design.
+     <br /> Currently I am Btech Student,I love to explore new technologies and i am trying to bring my skils to a perfection.
+      <br />Though I am most proficient in building <span className='text-[#D7FF33] font-bold'>front-end applications</span>  using <span className='text-[#D7FF33] font-bold'>HTML, CSS, Javascript, React And Next.js</span> I am a quick learner and can pick up new tech stacks as needed.<br />I believe that being a great developer is not using one
+       specific language, but choosing the best tool for the job.</p>
              
        </div>
      </div>
