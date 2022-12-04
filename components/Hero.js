@@ -1,37 +1,41 @@
 import React from 'react';
-import bg  from '../Images/bg 1.jpg'
 import Image from 'next/image';
-import { useRouter } from 'next/router'
+ import dj from '../Images/dj.png';
 const Hero = () => {
+  
   return (
-    <div className=''>
-    <div className=''>
-    <Image className='z-[-1] 	position: fixed h-[100vh] w-[100vw]'
-      src={bg}
-      alt="background"
-      layout="fill"
-      objectFit='cover'
-       />
+  <section className='min-h-screen flex py-10 md:flex-row flex-col items-center'>
 
-</div>
-       <div className='mx-auto z-50 '>
-       <div className='text-white'>
-     <div className='max-w-[800px] mt-[-90px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold'>Hey,</p>
-        <h1 className='md:text-4xl sm:text-3xl text-4xl font-bold md:py-6'>This is Divyesh Jain</h1>
-        <div className='flex justify-center items-center'>
-            <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-            I am a Frontend Developer
+              {/* Image section */}
+
+      <div className='mx-7 flex-1 pt-12'>
+          <Image src={dj}  alt="" className='w-100 h-full  object-cover  '/>
+       </div>
+   
+              {/* Text section */}
+
+
+   <div className='flex-1 text-white'>
+      <div>
+        <h1 className='mx-32 md:text-5xl text-2xl md:leading-normal leading-10 font-bold  '>
+            <span className='md:text-6xl text-5xl'>
+              <span className=''>hey, </span>
+               <br />
+               <span className='border-b-8 border-[#C4FA6F]'>This is </span>
+               <br />
+               Divyesh Jain
+               <br />
+              I'm  <span className='border-b-8 border-blue-900'>Frontend Developer</span>
+             </span>
+         </h1>
+            <p className='mx-32 pt-3'>Let's Build Something Together<br />
+              
             </p>
-            
-        </div>
-        <button type="button" onClick={() => router.push('/about')} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>AboutMe</button>
+             <br />
+             
+       </div>
      </div>
-    </div>
-       </div>
-       </div>
-    
-    
+  </section>
   );
 }
 
