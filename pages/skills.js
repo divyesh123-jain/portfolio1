@@ -9,12 +9,12 @@ import img4 from '../Images/next.png'
 const Skills = () => {
   return (<>
   <div className='text-3xl align text-center text-white'>SKILLS</div>
-  <div className='mx-4 pt-12 grid  grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+  <div className='mx-4 pt-16 grid  grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 '>
 
 
-<a href="#" className='grid2-item border-8 border-gray-600 w-[20vh]   overflow-x-auto relative rounded-xl sm:rounded-lg mx-auto  '>
+<a href="#" className='grid2-item border-8 border-gray-600 w-[20vh]   overflow-x-auto relative rounded-xl sm:rounded-lg mx-auto absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70  '>
   
-  <div className='flex'>
+  <div className='flex '>
     
    <Image src={img}
    alt="pic"
@@ -72,10 +72,10 @@ const Skills = () => {
    </div>
 </a>
 
-<div className='border-b-full'></div>
+
   
     </div>
-    <div className='border-b-full'></div>
+    
  
    
    </> );

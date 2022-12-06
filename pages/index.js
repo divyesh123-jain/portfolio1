@@ -23,7 +23,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Skills />
-     {/* <Projects /> */}
+      <Projects /> 
      
     </div>
   )
