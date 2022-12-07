@@ -45,10 +45,32 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-3xl mb-6 font-extrabold'>Inʌent</h1>
+        <h1 className='text-5xl mb-6 font-extrabold'>Inʌent</h1>
         {/* card subtitle */}
         <p className='max-w-[200px] text-[#000000] mb-6'>
-         its is a healthcare dashboard that caters to your healthcare needs
+       A website which helps investors and entrepenure to find each other
+        </p>
+        {/* btn & price wrapper */}
+        <div className='flex items-center gap-x-[20px] mb-12'>
+          <button className='bg-[#2d2b2c] text-white text-base font-medium py-[16px] px-[40px] rounded-lg'>
+            View
+          </button>
+          <div className='text-[24px] font-bold text-[#000000]'></div>
+          </div>
+          </div>
+
+          <div className='w-[300px] grid2-item  overflow-x-auto mx-10  bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
+      >
+        {/* card logo */}
+        <div className='mb-6'>
+          <img src={hcare} alt='' />
+
+        </div>
+        {/* card title */}
+        <h1 className='text-5xl mb-6 font-extrabold'>Inʌent</h1>
+        {/* card subtitle */}
+        <p className='max-w-[200px] text-[#000000] mb-6'>
+       A website which helps investors and entrepenure to find each other
         </p>
         {/* btn & price wrapper */}
         <div className='flex items-center gap-x-[20px] mb-12'>
