@@ -8,8 +8,8 @@ const Hero = () => {
 
               {/* Image section */}
 
-      <div className='mx-7 flex-1 pt-12'>
-          <Image src={dj}  alt="" className='w-[60vh] h-full  object-cover rounded-md  '/>
+      <div className='mx-7 flex-1 pt-12 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'>
+          <Image src={dj}  alt="" className='w-[60vh] h-full  object-cover rounded-full  '/>
        </div>
    
               {/* Text section */}
