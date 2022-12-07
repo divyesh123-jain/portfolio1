@@ -15,7 +15,7 @@ const Projects = () => {
     <h1 className='text-white pt-28 align text-center text-3xl'>PROJECTS</h1>
   </div>
   <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8'>
-  <div className='w-[300px] ] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
+  <div className='w-[300px] grid2-item bg-[#e4dfdc]  overflow-x-auto mx-10 rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
         <div className='mb-6'>
@@ -23,7 +23,7 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-3xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
+        <h1 className='text-4xl mb-6 font-extrabold'>HCARE</h1>
         {/* card subtitle */}
         <p className='max-w-[200px] text-[#000000] mb-6'>
          its is a healthcare dashboard that caters to your healthcare needs
@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
           </div>
 
-          <div className='w-[300px] ] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
+          <div className='w-[300px] grid2-item  overflow-x-auto mx-10  bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
         <div className='mb-6'>
@@ -45,7 +45,7 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-3xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
+        <h1 className='text-3xl mb-6 font-extrabold'>Inʌent</h1>
         {/* card subtitle */}
         <p className='max-w-[200px] text-[#000000] mb-6'>
          its is a healthcare dashboard that caters to your healthcare needs
