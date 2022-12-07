@@ -15,7 +15,7 @@ const Projects = () => {
     <h1 className='text-white pt-28 align text-center text-3xl'>PROJECTS</h1>
   </div>
   <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8'>
-  <div className='w-[426px] min-h-[600px] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
+  <div className='w-[300px] ] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
         <div className='mb-6'>
@@ -23,9 +23,9 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-5xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
+        <h1 className='text-3xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
         {/* card subtitle */}
-        <p className='max-w-[300px] text-[#000000] mb-6'>
+        <p className='max-w-[200px] text-[#000000] mb-6'>
          its is a healthcare dashboard that caters to your healthcare needs
         </p>
         {/* btn & price wrapper */}
@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
           </div>
 
-          <div className='w-[426px] min-h-[600px] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
+          <div className='w-[300px] ] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
         <div className='mb-6'>
@@ -45,9 +45,9 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-5xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
+        <h1 className='text-3xl mb-6 font-extrabold'>HEALTHCARE DASHBOARD</h1>
         {/* card subtitle */}
-        <p className='max-w-[300px] text-[#000000] mb-6'>
+        <p className='max-w-[200px] text-[#000000] mb-6'>
          its is a healthcare dashboard that caters to your healthcare needs
         </p>
         {/* btn & price wrapper */}
@@ -58,7 +58,6 @@ const Projects = () => {
           <div className='text-[24px] font-bold text-[#000000]'></div>
           </div>
           </div>
-
 
        </div>
     </>
