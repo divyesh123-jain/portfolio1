@@ -14,7 +14,7 @@ const Projects = () => {
   <div>
     <h1 className='text-white pt-28 align text-center text-3xl'>PROJECTS</h1>
   </div>
-  <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8'>
+  <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
   <div className='w-[300px] grid2-item bg-[#e4dfdc]  overflow-x-auto mx-8 rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
@@ -67,10 +67,10 @@ const Projects = () => {
 
         </div>
         {/* card title */}
-        <h1 className='text-5xl mb-6 font-extrabold'>Inʌent</h1>
+        <h1 className='text-4xl mb-6 font-extrabold'>CollegeGet</h1>
         {/* card subtitle */}
         <p className='max-w-[200px] text-[#000000] mb-6'>
-       A website which helps investors and entrepenure to find each other
+       A website which helps college students to buy and sell the verious accessories
         </p>
         {/* btn & price wrapper */}
         <div className='flex items-center gap-x-[20px] mb-12'>
