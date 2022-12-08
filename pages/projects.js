@@ -14,7 +14,7 @@ const Projects = () => {
   <div>
     <h1 className='text-white pt-28 align text-center text-3xl'>PROJECTS</h1>
   </div>
-  <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
+  <div className='mx-8 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-28'>
   <div className='w-[300px] grid2-item bg-[#e4dfdc]  overflow-x-auto mx-8 rounded-[30px] border-[4px] border-white px-[40px] py-[24px] cursor-grab relative'
       >
         {/* card logo */}
@@ -30,9 +30,9 @@ const Projects = () => {
         </p>
         {/* btn & price wrapper */}
         <div className='flex items-center gap-x-[20px] mb-12'>
-          <button className='bg-[#2d2b2c] text-white text-base font-medium py-[16px] px-[40px] rounded-lg'>
+          <a href='https://github.com/divyesh123-jain/healthcare'> <button className='bg-[#2d2b2c] text-white text-base font-medium py-[16px] px-[40px] rounded-lg'>
             View
-          </button>
+          </button></a>
           <div className='text-[24px] font-bold text-[#000000]'></div>
           </div>
           </div>
