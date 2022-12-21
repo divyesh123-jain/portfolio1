@@ -1,15 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
- import dj from '../Images/DJ.png';
+ import hello from '../Images/hello.png';
 const Hero = () => {
   
   return (
-  <section className='min-h-screen flex py-10 md:flex-row flex-col items-center'>
+  <section className='min-h-screen flex py-10 md:flex-row flex-col items-center border-b-blue-900'>
 
               {/* Image section */}
 
-      <div className='mx-7 flex-1 pt-12 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'>
-          <Image src={dj}  alt="" className='w-[60vh] h-full  object-cover rounded-full  '/>
+      <div className='mx-7 flex-1 pt-12'>
+          <Image src={hello}  alt="" className='w-[60vh] h-full  object-cover rounded-full  '/>
+          
        </div>
    
               {/* Text section */}
