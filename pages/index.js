@@ -11,6 +11,7 @@ import Skills from './skills'
 
 import Navbar from '../components/Navbar'
 import Projects from './projects'
+import Contact from './Contact'
 
 
 export default function Home() {
@@ -25,7 +26,8 @@ export default function Home() {
       <About />
       <Skills />
       <Projects /> 
-      <Footer />
+      {/* <Footer /> */}
+      <Contact />
      
     </div>
   )
