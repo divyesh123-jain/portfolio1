@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import About from './about'
 
-import Footer from './Footer'
-import Hero from '../components/Hero'
+
 import Skills from './skills'
 
 
@@ -26,7 +25,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects /> 
-      {/* <Footer /> */}
+
       <Contact />
      
     </div>

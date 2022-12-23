@@ -29,10 +29,10 @@ const Contact = () => {
   };
 
   return (<>
-    <h1 className="text-white flex justify-center text-3xl">Contact ME </h1>
-    <div className="pt-3 flex justify-center border-4 border-indigo-100 ... ">
+    <h1 className="text-white flex justify-center pt-4 text-3xl">Contact ME </h1>
+    <div className="pt-5 flex justify-center border-4 border-indigo-100 ... ">
     
-    <StyledContactForm>
+    <StyledContactForm className="pt-3">
       <form ref={form} onSubmit={sendEmail}>
         <label className="text-white text-xl">Name</label>
         <input type="text" name="user_name" />
@@ -40,10 +40,12 @@ const Contact = () => {
         <input type="email" name="user_email" />
         <label className="text-white text-xl">Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input className="pb-5" type="submit" value="Send" />
       </form>
     </StyledContactForm>
     </div>
+    <div className="pb-4 border-4 border-black ..."></div>
+    <div className="text-white text-center">Made with &#10084; by Divyesh Jain</div>
     </>
   );
 };
