@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (<>
     <h1 className="text-white flex justify-center pt-4 text-3xl">Contact ME </h1>
-    <div className="pt-5 flex justify-center mx-20 border-4 border-indigo-100 ... ">
+    <div className="pt-5 flex justify-center mx-20  border-4 border-indigo-100 ... ">
     
     <StyledContactForm className="pt-3">
       <form ref={form} onSubmit={sendEmail}>

@@ -4,8 +4,9 @@ import dj from '../Images/DJ.png';
 
 const About = () => {
   return (<>  
-    <section className='min-h-screen flex py-10 md:flex-row flex-col items-center'>
-    
+ <div className='w-full h-screen bg-no-repeat bg-cover bg-black'>
+
+    <section className='min-h-screen flex py-10 md:flex-row flex-col items-center first-letter '>
                 {/* Image section */}
   
         <div className='mx-7 flex-1 pt-12 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'>
@@ -23,6 +24,7 @@ const About = () => {
          </div>
          </div> 
     </section>
+    </div>
     </>
     );
   }
